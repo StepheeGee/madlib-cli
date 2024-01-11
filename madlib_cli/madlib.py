@@ -27,7 +27,7 @@ def get_user_inputs(prompts):
 
 # Main Program
 if __name__ == "__main__":
-    template_path = 'assets/dark_and_stormy_night_template.txt'
+    template_path = 'assets/madlib_template.txt'
 
     # Read the template from the file
     template = read_template(template_path)
