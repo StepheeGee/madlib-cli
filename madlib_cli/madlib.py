@@ -16,11 +16,7 @@ def parse_template(template):
 
 def merge(template, placeholders):
     placeholders = list(placeholders)
-    print(placeholders)
-    for placeholder in placeholders:
-        template = template.replace('{}', placeholders.pop(0), 1)
-        print(template)
-    return template
+    return template.format(*placeholders)
 
 # Additional function to get user inputs
 def get_user_inputs(prompts):
